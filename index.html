@@ -26,6 +26,14 @@
       color: var(--text);
     }
     .page { max-width: 1280px; margin: 0 auto; padding: 20px 24px 34px; }
+
+    .amit-logo {
+      display: block;
+      width: min(330px, 72vw);
+      height: auto;
+      margin: 0 auto 12px;
+      object-fit: contain;
+    }
     header { text-align: center; margin-bottom: 22px; }
     h1 { margin: 0 0 6px; font-size: clamp(30px, 4vw, 48px); line-height: 1.05; letter-spacing: -0.04em; }
     .subtitle { margin: 0; color: var(--muted); font-size: 15px; }
@@ -61,6 +69,7 @@
     .error { margin: 14px; padding: 12px 14px; border: 1px solid #fecaca; background: #fff1f2; border-radius: 12px; color: #991b1b; font-size: 14px; }
     @media (max-width: 900px) {
       .page { padding: 14px; }
+      .amit-logo { width: min(260px, 78vw); margin-bottom: 8px; }
       .layout { grid-template-columns: 1fr; direction: rtl; }
       .transcript-card { height: 52vh; }
     }
@@ -69,6 +78,7 @@
 <body>
   <main class="page">
     <header>
+      <img class="amit-logo" src="amit-logo.png" alt="לוגו רשת אמית" />
       <h1>תהילה פרידמן</h1>
       <p class="subtitle">לחיצה על שורה בתמלול תקפיץ את הסרטון לנקודה המתאימה. בזמן הניגון, השורה הפעילה מודגשת.</p>
     </header>
