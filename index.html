@@ -3,11 +3,52 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>נאום ח״כ תהלה פרידמן</title>
+  <title>תהלה פרידמן — זאת המשמרת שלנו</title>
 
   <style>
+
+    @font-face {
+      font-family: "Anomalia";
+      src: url("anomalia-light-aaa.otf") format("opentype");
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Anomalia";
+      src: url("anomalia-medium-aaa.otf") format("opentype");
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Anomalia";
+      src: url("anomalia-bold-aaa.otf") format("opentype");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Anomalia";
+      src: url("anomalia-ultrabold-aaa.otf") format("opentype");
+      font-weight: 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Ploni";
+      src: url("ploni-regular-aaa(2).otf") format("opentype");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
     :root {
-      --page-bg: #0f5b5a;
+      --page-bg: #075052;
       --card-bg: #ffffff;
       --text: #182033;
       --muted: #667085;
@@ -30,7 +71,7 @@
     }
 
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-family: "Ploni", Arial, sans-serif;
       background: var(--page-bg);
       color: var(--text);
     }
@@ -48,6 +89,7 @@
 
     .title {
       margin: 0;
+      font-family: "Anomalia", Arial, sans-serif;
       line-height: .95;
       letter-spacing: -0.045em;
     }
@@ -221,7 +263,9 @@
     }
 
     .text {
-      font-size: 15px;
+      font-family: "Ploni", Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 400;
       line-height: 1.55;
     }
 
@@ -280,8 +324,8 @@
   <main class="page">
     <header class="header">
       <h1 class="title">
-        <span class="title-small">נאום בכורה בכנסת</span>
-        <span class="title-large">תהלה פרידמן</span>
+        <span class="title-small">תהלה פרידמן</span>
+        <span class="title-large">זאת המשמרת שלנו</span>
       </h1>
     </header>
 
